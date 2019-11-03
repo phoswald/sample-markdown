@@ -56,8 +56,9 @@ Source code can be indented using four spaces.
 Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
 
 Tables are an extension in GitHub Flavored Markdown. They also work in VS Code (press Ctrl+Shift+V or Ctrl+K V for preview).
+If you add two spaces after each row, the layout is readable even if tables are not actually recognized (for example in Eclipse).
 
-| xx | yy | zz |
-| -- | -- | -- |
-| a | b | c |
-| 1 | 2 | 3 |
+| xx | yy | zz |  
+| -- | -- | -- |  
+| a | b | c |  
+| 1 | 2 | 3 |  
