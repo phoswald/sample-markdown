@@ -50,7 +50,7 @@ Numbered list:
 
 An [example link](http://example.com).
 
-An image ![alt text](https://www.google.com/favicon.ico)
+An image ![Image](https://www.google.com/favicon.ico "alternative text")
 
 Source code can be indented using four spaces.
 
