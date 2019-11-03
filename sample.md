@@ -62,7 +62,7 @@ Source code can be indented using four spaces.
 
 Markdown uses backslahses (\\) to escape \*, \{ , \# and more.
 
-Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> is supported.
+Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> is supported by Eclipse and VS Code.
 
 ### Extensions
 
