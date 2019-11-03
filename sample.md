@@ -30,11 +30,17 @@ Horizontal rule is defined by three dashes:
 
 ---
 
-Bullet list:
+Bullet list (using asteriks):
 
   * apples
   * oranges
   * pears
+
+Bullet list (using dashes):
+
+  - apples
+  - oranges
+  - pears
 
 Numbered list:
 
@@ -44,7 +50,7 @@ Numbered list:
 
 An [example link](http://example.com).
 
-An image ![image](https://www.google.com/favicon.ico "hover text")
+An image ![alt text](https://www.google.com/favicon.ico)
 
 Source code can be indented using four spaces.
 
@@ -55,8 +61,16 @@ Source code can be indented using four spaces.
 
 Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
 
-Tables are an extension in GitHub Flavored Markdown. They also work in VS Code (press Ctrl+Shift+V or Ctrl+K V for preview).
-If you add two spaces after each row, the layout is readable even if tables are not actually recognized (for example in Eclipse).
+### Extensions
+
+A line break can also be produced by a backslash \
+at the end of the line.
+They also work in GitHub, VS Code and dillinger.io, 
+but not in Eclipse or markdownlivepreview.com.
+
+Tables are an extension defined by GitHub Flavored Markdown. 
+They also work in VS Code, but not in Eclipse.
+If you add two spaces after each row, the layout is readable even if tables are not actually recognized.
 
 | xx | yy | zz |  
 | -- | -- | -- |  
