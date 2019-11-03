@@ -24,7 +24,8 @@ by a blank line.
 Two spaces at the end of a line  
 produces a line break.
 
-Text can have the attributes _italic_, **bold** or `monospace`.
+Text can have the attributes _italic_, *italic again*, 
+__bold__, **bold again**, or `monospace`.
 
 Horizontal rule is defined by three dashes:
 
@@ -59,7 +60,9 @@ Source code can be indented using four spaces.
 
 > Markdown uses email-style > characters for blockquoting.
 
-Inline <abbr title="Hypertext Markup Language">HTML</abbr> is supported.
+Markdown uses backslahses (\\) to escape \*, \{ , \# and more.
+
+Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> is supported.
 
 ### Extensions
 
@@ -69,10 +72,11 @@ They also work in GitHub, VS Code and dillinger.io,
 but not in Eclipse or markdownlivepreview.com.
 
 Tables are an extension defined by GitHub Flavored Markdown. 
-They also work in VS Code, but not in Eclipse.
+They also work in VS Code and dillinger.io, 
+but not in Eclipse or markdownlivepreview.com.
 If you add two spaces after each row, the layout is readable even if tables are not actually recognized.
 
-| xx | yy | zz |  
-| -- | -- | -- |  
-| a | b | c |  
-| 1 | 2 | 3 |  
+xx | yy | zz  
+-- | -- | --  
+a | b | c  
+1 | 2 | 3  
