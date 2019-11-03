@@ -1,20 +1,22 @@
+# Basic Features
+
+# Heading
+
+The standard format for headings uses a single hash as prefix.
+
+## Sub-heading
+
+The standard format for sub-headings uses two hashes as prefixes.
+
 Heading
 =======
 
-This is the first form for headings uses double dashes on the next line.
+The second format for headings uses double dashes on the next line.
 
 Sub-heading
 -----------
 
-This is the first form for sub-headings uses dashes on the next line.
-
-# Heading
-
-This is the second form for headings uses hashes as prefixes.
-
-## Sub-heading
-
-This is the second form for sub-headings uses double hashes as prefixes.
+The second format for sub-headings uses dashes on the next line.
 
 ### Sub-sub-headings
 
@@ -22,7 +24,7 @@ Paragraphs are separated
 by a blank line.
 
 Two spaces at the end of a line  
-produces a line break.
+produces a line break. Unfortunately they are usually not visible in text editors.
 
 Text can have the attributes _italic_, *italic again*, 
 __bold__, **bold again**, or `monospace`.
@@ -42,12 +44,16 @@ Bullet list (using dashes):
   - apples
   - oranges
   - pears
+      - sub
+      - sub
 
 Numbered list:
 
   1. lather
   2. rinse
   3. repeat
+       1. sub
+       2. sub
 
 An [example link](http://example.com).
 
@@ -64,16 +70,16 @@ Markdown uses backslahses (\\) to escape \*, \{ , \# and more.
 
 Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> is supported by Eclipse and VS Code.
 
-### Extensions
+# Extensions
 
 A line break can also be produced by a backslash \
 at the end of the line.
 They also work in GitHub, VS Code and dillinger.io, 
-but not in Eclipse or markdownlivepreview.com.
+but **not** in Eclipse, markdownlivepreview.com or showdownjs.
 
 Tables are an extension defined by GitHub Flavored Markdown. 
-They also work in VS Code and dillinger.io, 
-but not in Eclipse or markdownlivepreview.com.
+They also work in VS Code, dillinger.io and showdownjs, 
+but **not** in Eclipse or markdownlivepreview.com.
 If you add two spaces after each row, the layout is readable even if tables are not actually recognized.
 
 xx | yy | zz  

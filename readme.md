@@ -23,3 +23,9 @@ Examples are [right here](sample.md)
   does not support tables. 
 - [dillinger.io](https://dillinger.io/): Online editor with live preview, 
   also supports tables.
+- [demo.showdownjs.com](http://demo.showdownjs.com/): Online editor with live preview,
+  many customizable flags
+
+## Libaries and Tools
+
+- [showdownjs](https://github.com/showdownjs/showdown): Javascript Markdown to HTML converter,      can be used client side (in the browser) or server side (with NodeJS).
