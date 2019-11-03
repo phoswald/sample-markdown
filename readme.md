@@ -29,3 +29,10 @@ Examples are [right here](sample.md)
 ## Libaries and Tools
 
 - [showdownjs](https://github.com/showdownjs/showdown): Javascript Markdown to HTML converter,      can be used client side (in the browser) or server side (with NodeJS).
+
+### Showdown.js
+
+    $ cd showdown-page
+    $ npm init -y
+    $ npm install webpack webpack-cli webpack-dev-server --save-dev
+    $ npm run start:dev

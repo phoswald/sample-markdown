@@ -1,0 +1,9 @@
+#source-text {
+  width: 800px;
+}
+#target-html {
+  border: 1px dashed #333333;
+}
+#source-uri {
+  width: 800px;
+}
