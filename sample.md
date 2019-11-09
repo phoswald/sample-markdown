@@ -73,7 +73,7 @@ Markdown uses backslahses (\\) to escape \*, \{ , \# and more.
 A __line break__ can also\
 be produced by a __backslash__\
 at the end of the line.\
-They work in GitHub, VS Code and dillinger, but __not__ in Eclipse, markdownlivepreview or showdownjs.
+This works in GitHub, VS Code and dillinger, but __not__ in Eclipse, markdownlivepreview or showdownjs.
 
 __Fenced code blocks__ offer an alternative syntax without indentiation. 
 They work in GitHub, VS Code, Eclipse, dillinger and showdownjs, but __not__ markdownlivepreview (incorrect layout).
@@ -92,7 +92,7 @@ xx | yy | zz
 a | b | c  
 1 | 2 | 3  
 
-Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> works in Eclipse, VS Code and showdownjs, but __not__ in markdownlivepreview and dillinger.
+Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> works in Eclipse, VS Code and showdownjs, but __not__ in GitHub, markdownlivepreview and dillinger.
 
 # Corner Cases
 
