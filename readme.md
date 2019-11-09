@@ -5,7 +5,7 @@ Showcases and tooling for [Markdown](https://en.wikipedia.org/wiki/Markdown)
 
 ## Showcase
 
-Examples are [right here](sample.md)
+Examples are [right here](sample.md).
 
 ## IDEs
 
@@ -15,20 +15,14 @@ Examples are [right here](sample.md)
 
 ## Online Services
 
-- [github.com](https://github.com/phoswald/sample-markdown): Automatically renders *.md files. 
-  GitHub supports extensions called GitHub Flavoured Markdown 
-  (see [Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)), 
-  which include tables, strikethrough, autolinks and task lists.
-- [markdownlivepreview.com](https://markdownlivepreview.com/): Online editor with live preview, 
-  does not support tables. 
-- [dillinger.io](https://dillinger.io/): Online editor with live preview, 
-  also supports tables.
-- [demo.showdownjs.com](http://demo.showdownjs.com/): Online editor with live preview,
-  many customizable flags
+- [github.com](https://github.com/phoswald/sample-markdown): Automatically renders *.md files. GitHub supports extensions called GitHub Flavoured Markdown (see [Cheat Sheet](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)), which include tables, strikethrough, autolinks and task lists.
+- [markdownlivepreview.com](https://markdownlivepreview.com/): Online editor with live preview, does not support tables. 
+- [dillinger.io](https://dillinger.io/): Online editor with live preview, also supports tables.
+- [demo.showdownjs.com](http://demo.showdownjs.com/): Online editor with live preview, many customizable flags.
 
 ## Libaries and Tools
 
-- [showdownjs](https://github.com/showdownjs/showdown): Javascript Markdown to HTML converter,      can be used client side (in the browser) or server side (with NodeJS).
+- [showdownjs](https://github.com/showdownjs/showdown): Javascript Markdown to HTML converter, can be used client side (in the browser) or server side (with NodeJS).
 
 ### Showdown.js
 

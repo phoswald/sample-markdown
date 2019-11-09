@@ -68,21 +68,64 @@ Source code can be indented using four spaces.
 
 Markdown uses backslahses (\\) to escape \*, \{ , \# and more.
 
-Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> is supported by Eclipse and VS Code.
-
 # Extensions
 
-A line break can also be produced by a backslash \
-at the end of the line.
-They also work in GitHub, VS Code and dillinger.io, 
-but **not** in Eclipse, markdownlivepreview.com or showdownjs.
+A __line break__ can also\
+be produced by a __backslash__\
+at the end of the line.\
+They work in GitHub, VS Code and dillinger, but __not__ in Eclipse, markdownlivepreview or showdownjs.
 
-Tables are an extension defined by GitHub Flavored Markdown. 
-They also work in VS Code, dillinger.io and showdownjs, 
-but **not** in Eclipse or markdownlivepreview.com.
+__Fenced code blocks__ offer an alternative syntax without indentiation. 
+They work in GitHub, VS Code, Eclipse, dillinger and showdownjs, but __not__ markdownlivepreview (incorrect layout).
+
+```
+#!/bin/sh
+echo 'Hello, world!'
+```
+
+__Tables__ are an extension defined by GitHub Flavored Markdown. 
+They also work in VS Code, dillinger and showdownjs, but __not__ in Eclipse or markdownlivepreview.
 If you add two spaces after each row, the layout is readable even if tables are not actually recognized.
 
 xx | yy | zz  
 -- | -- | --  
 a | b | c  
 1 | 2 | 3  
+
+Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> works in Eclipse, VS Code and showdownjs, but __not__ in markdownlivepreview and dillinger.
+
+# Corner Cases
+
+## Lists and paragraphs
+
+Lists immediately following a paragraph work in GitHub, VS Code, Eclipse, dillinger and showdownjs, but __not__ in markdownlivepreview. Remember that a paragraph should always be surrounded by empty lines.
+- apples
+- oranges
+
+## Lists and code blocks
+
+Code blocks following a list are ambigous. Code is recognized in dillinger, which is probably wrong.
+
+  - apples
+  - oranges
+
+    code
+    block
+
+This can be fixed by using a paragraph before the code block or by using fenced code blocks.
+
+  - apples
+  - oranges
+
+.
+
+    code
+    block
+
+  - apples
+  - oranges
+
+```
+code
+block
+```
