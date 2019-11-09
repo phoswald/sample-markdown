@@ -88,7 +88,7 @@ They also work in VS Code, dillinger and showdownjs, but __not__ in Eclipse or m
 If you add two spaces after each row, the layout is readable even if tables are not actually recognized.
 
 xx | yy | zz  
--- | -- | --  
+---|----|---  
 a | b | c  
 1 | 2 | 3  
 
