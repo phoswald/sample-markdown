@@ -73,10 +73,10 @@ Markdown uses backslahses (\\) to escape \*, \{ , \# and more.
 A __line break__ can also\
 be produced by a __backslash__\
 at the end of the line.\
-This works in GitHub, VS Code and dillinger, but __not__ in Eclipse, markdownlivepreview or showdownjs.
+This works in GitHub, VS Code, marked and dillinger, but __not__ in Eclipse, markdownlivepreview or showdownjs.
 
 __Fenced code blocks__ offer an alternative syntax without indentiation. 
-They work in GitHub, VS Code, Eclipse, dillinger and showdownjs, but __not__ markdownlivepreview (incorrect layout).
+They work in GitHub, VS Code, Eclipse, marked, dillinger and showdownjs, but __not__ markdownlivepreview (incorrect layout).
 
 ```
 #!/bin/sh
@@ -84,7 +84,7 @@ echo 'Hello, world!'
 ```
 
 __Tables__ are an extension defined by GitHub Flavored Markdown. 
-They also work in VS Code, dillinger and showdownjs, but __not__ in Eclipse or markdownlivepreview.
+They also work in VS Code, marked, dillinger and showdownjs, but __not__ in Eclipse or markdownlivepreview.
 If you add two spaces after each row, the layout is readable even if tables are not actually recognized.
 
 xx | yy | zz  
@@ -92,13 +92,13 @@ xx | yy | zz
 a | b | c  
 1 | 2 | 3  
 
-Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> works in Eclipse, VS Code and showdownjs, but __not__ in GitHub, markdownlivepreview and dillinger.
+Inline <u><abbr title="Hypertext Markup Language">HTML</abbr></u> works in Eclipse, VS Code, marked and showdownjs, but __not__ in GitHub, markdownlivepreview and dillinger.
 
 # Corner Cases
 
 ## Lists and paragraphs
 
-Lists immediately following a paragraph work in GitHub, VS Code, Eclipse, dillinger and showdownjs, but __not__ in markdownlivepreview. Remember that a paragraph should always be surrounded by empty lines.
+Lists immediately following a paragraph work in GitHub, VS Code, Eclipse, marked, dillinger and showdownjs, but __not__ in markdownlivepreview. Remember that a paragraph should always be surrounded by empty lines.
 - apples
 - oranges
 

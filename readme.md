@@ -20,9 +20,13 @@ Examples are [right here](sample.md).
 - [dillinger.io](https://dillinger.io/): Online editor with live preview, also supports tables.
 - [demo.showdownjs.com](http://demo.showdownjs.com/): Online editor with live preview, many customizable flags.
 
-## Libaries and Tools
+## Implementations
+
+For a complete list, see [github.com/markdown](https://github.com/markdown/markdown.github.com/wiki/Implementations).
 
 - [showdownjs](https://github.com/showdownjs/showdown): Javascript Markdown to HTML converter, can be used client side (in the browser) or server side (with NodeJS).
+- [marked](https://github.com/markedjs/marked): Javascript Markdown to HTML converter, supports CommonMark and GFM. It can be used client side (in the browser), server side (with NodeJS) or from a command line interface (CLI). Marked does __not__ sanitize the output HTML.
+- [remark](https://github.com/remarkjs/remark): Javascript Markdown to HTML converter. It can generate and reformat Markdown too. Powered by plugins to do all kinds of things: check Markdown code style, transform safely to React, add a table of contents, or compile to man pages.
 
 ### Showdown.js
 
@@ -30,3 +34,14 @@ Examples are [right here](sample.md).
     $ npm init -y
     $ npm install webpack webpack-cli webpack-dev-server --save-dev
     $ npm run start:dev
+
+### Marked
+
+    $ npm install -g marked
+    $ echo -e "# foo\nbar" | marked
+
+    $ cd marked-page
+    $ npm init -y
+    $ npm install webpack webpack-cli webpack-dev-server --save-dev
+    $ npm run start:dev
+
